@@ -19,7 +19,7 @@ with col1:
       st.write('- 부호: (+)는 생략 가능 /(-)는 생략 불가')
 # 오른쪽 문단
 with col2:
-      st.image('수학이미지.PNG')  # 이미지 파일 불러오기
+      st.image('math/수학이미지.PNG')  # 이미지 파일 불러오기
 
 # 사용자의 입력을 받아서 a에 저장하기(초기값은 0)
 #a = st.number_input('입력', value= 0)  
