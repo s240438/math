@@ -22,13 +22,13 @@ with col2:
       st.image('math/수학이미지.PNG')  # 이미지 파일 불러오기
 
 # 사용자의 입력을 받아서 a에 저장하기(초기값은 0)
-#a = st.number_input('입력', value= 0)  
+a = st.number_input('입력', value= 0)  
 
 # 버튼 생성 및 동작
-#if st.button('양수일까 음수일까?'):
-#       if a > 0:
-#              st.write('양수')
-#       elif a < 0:
-#              st.write('음수')
-#       else:
-#              st.write('0')
+if st.button('양수일까 음수일까?'):
+       if a > 0:
+              st.write('양수')
+       elif a < 0:
+              st.write('음수')
+       else:
+              st.write('0')
